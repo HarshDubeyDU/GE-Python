@@ -7,8 +7,7 @@ if n <= min(len(strOne), len(strTwo)):
     temp = strOne[0: n]
     strOne = strOne.replace(temp, strTwo[0: n])
     strTwo = strTwo.replace(strTwo[0: n], temp)
+    print("First String :", strOne)
+    print("Second String :", strTwo)
 else:
     print("Wrong Input!!")
-
-print("First String :", strOne)
-print("Second String :", strTwo)
