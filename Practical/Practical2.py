@@ -1,9 +1,9 @@
 n = int(input("Enter n = "))
 
 #1. Check if 'n' is prime
-if (n == 2):
+if n == 2:
     print("'n' is prime.")
-elif (n%2 == 0):
+elif n%2 == 0:
     print("'n' is not prime")
 else:
     divisor = 3
@@ -24,7 +24,7 @@ print(2)
 number = 2
 while(number <= n):
     number+=1
-    if (number%2==0):
+    if number%2==0:
         continue
     else:
         divisor = 3
