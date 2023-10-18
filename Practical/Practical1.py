@@ -1,8 +1,8 @@
 import math
 
-a = int(input("a = "))
-b = int(input("b = "))
-c = int(input("c = "))
+a = int(input("Enter the value a = "))
+b = int(input("Enter the value b = "))
+c = int(input("Enter the value c = "))
 
 discriminant = b ** 2 - 4 * a * c
 
