@@ -1,0 +1,4 @@
+Hello, Everyone.
+This is Python file Handling Solution.
+Learning Python is easy and fun.
+So, let's learn.
